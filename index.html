@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+
+    <!-- navbar section start-->
+
+    <header>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <button class="regbtn">Signup</button>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- navbat section end -->
+
+    <!-- Header section start -->
+
+    <!-- <img class="header-image" src="/image/06ed10a2-b5e9-428b-bc67-83e42abda48f.jpg" alt="Header Image"> -->
+
+
+    <!-- Header seection end -->
+
+
+    <div class="header-image">
+        <img class="header-img" src="image/blue_header_s.jpg" alt="Header Image">
+    </div>
+
+    <div class="welcome-text">
+        <h1>Welcome to Our Website</h1>
+        <button class="clickbtn">Click Me</button>
+    </div>
+    <!-- Main section start -->
+    <main>
+
+        <p class="reginfo">Please Register!</p>
+    </main>
+    <!-- Main section End -->
+
+    <div class="signupcontainer">
+        <h2>Sign Up</h2>
+        <form action="code.php" id="signup-form" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required placeholder="enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="enter your email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required placeholder="enter your password">
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required placeholder="re password">
+            </div>
+            <button class="signupbtn" type="submit">Sign Up</button>
+        </form>
+    </div>
+    <div>
+        <footer>
+            <div class="container">
+                <p id="footer-text">&copy; 2023 Srijan All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
