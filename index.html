@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Sign Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
@@ -13,29 +15,41 @@
     <!-- navbar section start-->
 
     <header>
-        <nav>
-            <div class="navbar">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <button class="regbtn">Signup</button>
 
-                </ul>
+        <nav class="navbar navbar-expand-lg navbar-light  W-auto navbar navbar-dark bg-lite">
+            <div class="container-fluid navbar Width auto">
+                <a class="navbar-brand text-primary" href="#">Travel<span class="text-warning">Explorer</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact</a>
+                        </li>
+
+                      
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success fw-bold" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
         </nav>
     </header>
-    <!-- navbat section end -->
-
-    <!-- Header section start -->
-
-    <!-- <img class="header-image" src="/image/06ed10a2-b5e9-428b-bc67-83e42abda48f.jpg" alt="Header Image"> -->
-
-
-    <!-- Header seection end -->
-
+    <!-- navbar section end -->
 
     <div class="header-image">
         <img class="header-img" src="image/blue_header_s.jpg" alt="Header Image">
@@ -43,12 +57,81 @@
 
     <div class="welcome-text">
         <h1>Welcome to Our Website</h1>
-        <button class="clickbtn">Click Me</button>
+        <button class="btn btn-primary mt-5">Click Me</button>
     </div>
+
+    <!-- main section start -->
+
+    <h2 class="mt-5 ">Bangladesh some tourist sport</h2>
+
+    <section class="container d-flex mt-3">
+
+        <div class="row  d-flex">
+            <div class="col d-flex flex-wrap ">
+
+                <div class="card me-3" style="width: 18rem;">
+                    <img style="width: auto; height: 200px;"
+                        src="image/beautiful-landscape-cityscape-hua-hin-city-around-sea-ocean-bay.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cox's Bazar</h5>
+                        <p class="card-text text-justify">Cox's Bazar: Nestled in southeastern Bangladesh, it boasts the world's
+                            longest uninterrupted sandy beach, offering mesmerizing views of the Bay of Bengal. A haven
+                            for beach lovers, it features golden shores, clear waters, and delicious seafood. Explore
+                            nearby attractions like Inani Beach and Himchari National Park. Discover the unique blend of
+                            natural beauty and local culture in this coastal paradise.</p>
+
+                        <a href="#" class="btn btn-primary">See more...</a>
+                    </div>
+                </div>
+                <div class="card me-3" style="width: 18rem;">
+                    <img style="width: auto; height: 200px;"
+                        src="image/small-house-built-peaceful-green-hill-high-up-mountains.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rangamati</h5>
+                        <p class="card-text text-justify">Rangamati is a serene hill district located in southeastern
+                            Bangladesh. It is characterized by its lush green hills, pristine lakes, and indigenous
+                            communities. The district is known for its natural beauty and offers opportunities for
+                            trekking, boating, and exploring the indigenous culture.
+                            where visitors can unwind amidst breathtaking landscapes and experience the rich diversity
+                            of Bangladesh's hillside regions.</p>
+
+                        <a href="#" class="btn btn-primary">See more..</a>
+                    </div>
+                </div>
+                <div class="card me-3" style="width: 18rem;">
+                    <img style="width: auto; height: 200px;"
+                        src="image/asian-woman-wearing-vietnam-culture-traditional-strawberry-garden-doi-ang-khang-chiang-mai-thailand.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sylhet</h5>
+                        <p class="card-text text-justify">Sylhet is a picturesque region in northeastern Bangladesh,
+                            celebrated for its stunning natural beauty. Nestled amid rolling tea gardens, lush green
+                            hills,
+                            and abundant waterfalls, Sylhet is a haven for nature enthusiasts. It's also famous for its
+                            aromatic tea estates, including the renowned Sylheti tea.
+                            like Ratnodweep and visit the sacred shrine of Hazrat Shah Jalal in Sylhet city.</p>
+
+                        <a href="#" class="btn btn-primary">See more...</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+
     <!-- Main section start -->
     <main>
 
-        <p class="reginfo">Please Register!</p>
+        <p class="reginfo mt-5">Please Register!</p>
     </main>
     <!-- Main section End -->
 

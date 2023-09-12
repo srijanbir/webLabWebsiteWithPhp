@@ -14,12 +14,8 @@ body {
 .header-img {
     position: relative;
     width: 100%;
+    height: 500px;
     overflow: hidden;
-}
-
-.header-img img {
-    width: 100%;
-    height: auto;
     display: block;
 }
 
@@ -29,7 +25,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: rgb(19, 18, 18);
+    color: rgb(250, 250, 250);
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 20px;
@@ -162,11 +158,11 @@ nav {
     /* Background color of the navbar */
 }
 
-.navbar {
+/* .navbar {
     max-width: 960px;
     margin: 0 auto;
     padding: 10px 0;
-}
+} */
 
 ul {
     list-style-type: none;
